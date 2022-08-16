@@ -1,0 +1,14 @@
+/* pages/center/center.wxss */
+.userInfo{
+	background-color: beige;
+	text-align: center;
+	font-size: 36rpx;
+	font-weight: 600;
+	padding: 30rpx 0;
+}
+
+.userInfo image{
+	width: 220rpx;
+	height: 220rpx;
+	border-radius:50%;
+}

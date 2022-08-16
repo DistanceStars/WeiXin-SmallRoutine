@@ -1,0 +1,5 @@
+/* pages/search/search.wxss */
+.serach-top{
+	widows: 100%;
+	display: flex;
+}

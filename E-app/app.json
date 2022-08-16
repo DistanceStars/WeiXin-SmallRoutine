@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/category/category",
+    "pages/shopcar/shopcar",
+    "pages/center/center",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/listing/listing",
+    "pages/telform/telform",
+    "pages/auth/auth"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#14c145",
+    "navigationBarTitleText": "E购",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "主页",
+      "iconPath": "./pages/images/首页w.png",
+      "selectedIconPath": "./pages/images/首页d.png"
+    },
+    {
+      "pagePath": "pages/category/category",
+      "text": "分类",
+      "iconPath": "./pages/images/分类w.png",
+      "selectedIconPath": "./pages/images/分类d.png"
+    },
+    {
+      "pagePath": "pages/shopcar/shopcar",
+      "text": "购物车",
+      "iconPath": "./pages/images/购物车w.png",
+      "selectedIconPath": "./pages/images/购物车d.png"
+    },
+    {
+      "pagePath": "pages/center/center",
+      "text": "我的",
+      "iconPath": "./pages/images/我的w.png",
+      "selectedIconPath": "./pages/images/我的w.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  
+    "useExtendedLib": {
+      "weui": true
+    }
+  
+ 
+}

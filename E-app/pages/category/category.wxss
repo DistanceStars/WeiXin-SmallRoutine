@@ -1,0 +1,25 @@
+page{
+	background-color: white;
+	height: 100%;
+}
+
+.tab-content-item{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+}
+
+.tab-content-item .item{
+	width: 50%;
+	padding:0 20rpx;
+	box-sizing: border-box;
+}
+
+.item image{
+	width: 240rpx;
+}
+
+.item view{
+	text-align: center;
+	font-size: 24rpx;
+}

@@ -1,0 +1,19 @@
+<mp-vtabs 
+  vtabs="{{vtabs}}" 
+  activeTab="{{activeTab}}" 
+  swiperClass="weui-tabs-swiper"
+  bindtabclick="onTabCLick"
+  bindchange="onChange"
+  activeClass="tab-bar-title__selected"
+>
+  <block wx:for="{{vtabs}}" wx:key="title">
+    <mp-vtabs-content tabIndex="{{index}}">
+    <view class="tab-content-item" >
+        <view wx:for="{{item.goods}}" wx:key="id" class="item" data-id="{{item.id}}"  data-name="{{item.title}}" bindtap="handleChangePage">
+        <image src="http://localhost:3000{{item.poster}}" mode="widthFix"></image>
+        <view>{{item.title}}</view>
+        </view>
+    </view>
+    </mp-vtabs-content>
+  </block>
+</mp-vtabs>

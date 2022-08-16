@@ -1,0 +1,19 @@
+<!--pages/home/home.wxml-->
+<swiper indicator-dots="{{true}}">
+<swiper-item wx:for="{{loopList}}" wx:key="id">
+ <image class="img" src="http://localhost:3000/{{item.url}}"  mode="widthFix"/>
+</swiper-item>
+</swiper>
+
+
+<view class="search">
+<my-search  bindevent="handleEvent"></my-search>
+</view>
+
+
+<view wx:for="{{goodList}}" wx:key="index" class="goodbox" bindtap="handleChangePage" data-id="{{item.id}}"  data-name="{{item.title}}">
+<image src="http://localhost:3000{{item.poster}}" mode="widthFix"></image>
+<view>{{item.title}}</view>
+<view style="color: red;">价格:￥{{item.price}}</view>
+<view>好评率:{{item.goodcomment}}</view>
+</view>

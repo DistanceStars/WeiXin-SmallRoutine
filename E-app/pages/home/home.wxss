@@ -1,0 +1,21 @@
+/* pages/home/home.wxss */
+swiper{
+	height: 296rpx;
+}
+swiper image{
+	width: 100%;
+}
+.goodbox{
+ padding: 20rpx;
+ overflow: hidden;
+}
+
+.goodbox image{
+	width: 200rpx;
+	float: left;
+}
+
+.search{
+	position:sticky;
+	top: 0;
+}

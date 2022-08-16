@@ -1,0 +1,9 @@
+/* components/search/search.wxss */
+input{
+	border: 4rpx solid #85eea3;
+	border-radius: 24rpx;
+	margin: 10rpx;
+	padding: 10rpx;
+	height: 30rpx;
+	background-color: #85eea3 ;
+}

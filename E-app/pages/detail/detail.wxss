@@ -1,0 +1,75 @@
+/* pages/detail/detail.wxss */
+swiper image{
+	width: 100%;
+	height: 400rpx;
+}
+swiper{
+	height: 400rpx;
+}
+.detail-center{
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	display: flex;
+	background-color:wheat;
+	padding: 0 20rpx ;
+	margin-bottom: 10rpx;
+	position: sticky;
+	top: 0;
+}
+.detail-center view{
+	 flex: 1;
+
+}
+
+.detail-center .active{
+	border-bottom:5rpx solid red ;
+}
+
+.user{
+	overflow: hidden;
+	padding: 20rpx;
+}
+.user image{
+  width: 100rpx;
+	border-radius: 50%;
+}
+.user-left{
+float: left;
+height: 100rpx;
+line-height: 100rpx;
+}
+
+.user-right{
+	
+	float:right;
+	height: 100rpx;
+	line-height: 100rpx;
+	}
+	
+
+.content{
+	padding: 20rpx;
+	
+}
+.content image{
+	width: 200rpx;
+}
+
+.bottom{
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+}
+
+.bottom view{
+	width: 50%;
+	color: white;
+	font-weight: 600;
+}
+
